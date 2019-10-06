@@ -6,13 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.fashionalfa.activites.BajuActivity;
-import com.example.fashionalfa.activites.CelanaActivity;
-import com.example.fashionalfa.activites.JaketActivity;
-import com.example.fashionalfa.activites.KacamataActivity;
-import com.example.fashionalfa.activites.SepatuActivity;
-import com.example.fashionalfa.activites.SetelanActivity;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override

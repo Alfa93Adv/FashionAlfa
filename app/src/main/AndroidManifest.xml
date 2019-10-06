@@ -9,12 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activites.KacamataActivity"></activity>
-        <activity android:name=".activites.CelanaActivity" />
-        <activity android:name=".activites.JaketActivity" />
-        <activity android:name=".activites.SepatuActivity" />
-        <activity android:name=".activites.SetelanActivity" />
-        <activity android:name=".activites.BajuActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
