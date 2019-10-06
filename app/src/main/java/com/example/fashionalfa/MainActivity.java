@@ -6,6 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.fashionalfa.activites.MenuPriaActivity;
+import com.example.fashionalfa.activites.MenuWanitaActivity;
+import com.example.fashionalfa.activitiesPria.PBajuActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -14,38 +18,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClickHome(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
+    public void ClickPakaianPria(View view) {
+        Intent intent = new Intent(this, MenuPriaActivity.class);
         startActivity(intent);
     }
 
-    public void onClickBaju(View view) {
-        Intent intent = new Intent(this, BajuActivity.class);
-        startActivity(intent);
-    }
-
-    public void onClickSetelan(View view) {
-        Intent intent = new Intent(this, SetelanActivity.class);
-        startActivity(intent);
-    }
-
-    public void onClickSepatu(View view) {
-        Intent intent = new Intent(this, SepatuActivity.class);
-        startActivity(intent);
-    }
-
-    public void onClickJaket(View view) {
-        Intent intent = new Intent(this, JaketActivity.class);
-        startActivity(intent);
-    }
-
-    public void onClickCelana(View view) {
-        Intent intent = new Intent(this, CelanaActivity.class);
-        startActivity(intent);
-    }
-
-    public void onClickKacamata(View view) {
-        Intent intent = new Intent(this, KacamataActivity.class);
+    public void ClickPakaianWanita(View view) {
+        Intent intent = new Intent(this, MenuWanitaActivity.class);
         startActivity(intent);
     }
 }

@@ -9,6 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activitiesPria.Baju1Activity"></activity>
+        <activity android:name=".activitiesPria.PSepatuActivity" />
+        <activity android:name=".activitiesPria.PSandalActivity" />
+        <activity android:name=".activitiesPria.PKacamataActivity" />
+        <activity android:name=".activitiesPria.PJaketActivity" />
+        <activity android:name=".activitiesPria.PCelanaActivity" />
+        <activity android:name=".activitiesPria.PBajuActivity" />
+        <activity android:name=".activitesWanita.BedakActivity" />
+        <activity android:name=".activitesWanita.KacamataActivity" />
+        <activity android:name=".activitesWanita.SandalActivity" />
+        <activity android:name=".activitesWanita.SepatuActivity" />
+        <activity android:name=".activitesWanita.JaketActivity" />
+        <activity android:name=".activitesWanita.CelanaActivity" />
+        <activity android:name=".activitesWanita.BajuActivity" />
+        <activity android:name=".activites.MenuWanitaActivity" />
+        <activity android:name=".activites.MenuPriaActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
