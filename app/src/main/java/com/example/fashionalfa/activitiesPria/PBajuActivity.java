@@ -21,4 +21,9 @@ public class PBajuActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    public void ClickBaju1(View view) {
+        Intent intent = new Intent(this, Baju1Activity.class);
+        startActivity(intent);
+    }
 }
